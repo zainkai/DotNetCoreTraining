@@ -1,18 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9534F8C0-61B5-49B1-AB84-40C285B7DE7D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CD335AE-E405-4336-A86B-EE4CAB10E63B}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dal", "src\Dal\Dal.xproj", "{691F9A15-52FF-4060-89F3-89018543F820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dal", "src\Dal\Dal.csproj", "{691F9A15-52FF-4060-89F3-89018543F820}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Web", "src\Web\Web.xproj", "{B966FB53-FAD6-44B9-9DF1-D9A704E87367}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "src\Web\Web.csproj", "{B966FB53-FAD6-44B9-9DF1-D9A704E87367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
